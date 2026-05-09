@@ -11,6 +11,7 @@ Welcome to the official documentation for **HumCFS**, a manually curated databas
 Kumar, R., Nagpal, G., Kumar, V., Usmani, S. S., Agrawal, P., & Raghava, G. P. S. (2019). 
 **HumCFS: a database of fragile sites in human chromosomes.** *BMC Genomics*, 19(Suppl 9), 985. 
 [https://doi.org/10.1186/s12864-018-5330-5](https://doi.org/10.1186/s12864-018-5330-5)
+zonedo:- (https://doi.org/10.5281/zenodo.20094980)
 
 ---
 
