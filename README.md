@@ -1,70 +1,70 @@
-# HMRBase2: A Comprehensive Database of Hormones and Their Receptors
+# HumCFS: A Database of Fragile Sites in Human Chromosomes
 
-Welcome to the official documentation for **HMRBase2**, a manually curated and comprehensive repository of hormones and their respective receptors. This resource was developed to assist the scientific community in understanding the intricate molecular interactions of the endocrine system, which are vital for physiological regulation and drug discovery.
+Welcome to the official documentation for **HumCFS**, a manually curated database of human chromosomal fragile sites. Fragile sites are specific chromosomal regions susceptible to breakage under replication stress and are often involved in chromosomal rearrangements in tumors.
 
-**Web Server:** [http://webs.iiitd.edu.in/raghava/hmrbase2/](http://webs.iiitd.edu.in/raghava/hmrbase2/)
+**Web Server:** [http://webs.iiitd.edu.in/raghava/humcfs/](http://webs.iiitd.edu.in/raghava/humcfs/)
 
 ---
 
 ## Citation
 
-Patiyal, S., Agrawal, P., Kumar, V., Dhall, A., Kumar, R., Mishra, G., & Raghava, G. P. S. (2020). 
-**HMRBase2: a comprehensive database of hormones and their receptors.** *Briefings in Bioinformatics*, 21(3), 1051–1059. 
-[https://doi.org/10.1093/bib/bbz048](https://doi.org/10.1093/bib/bbz048)
+Kumar, R., Nagpal, G., Kumar, V., Usmani, S. S., Agrawal, P., & Raghava, G. P. S. (2019). 
+**HumCFS: a database of fragile sites in human chromosomes.** *BMC Genomics*, 19(Suppl 9), 985. 
+[https://doi.org/10.1186/s12864-018-5330-5](https://doi.org/10.1186/s12864-018-5330-5)
 
 ---
 
 ## About the Platform
 
-Hormone-receptor interactions are fundamental to cellular communication and the maintenance of systemic homeostasis. While various databases exist for general protein-protein interactions, HMRBase2 provides a specialized platform focusing exclusively on the specific pairs of hormones and receptors across different species.
+HumCFS provides a centralized resource for researchers studying genomic instability and its role in cancer and other diseases. The database categorizes fragile sites based on their frequency in the human population and provides detailed mapping and genetic annotations.
 
-### Data Composition
-* **Extensive Repository**: Contains approximately 13,000 hormone-receptor pairs.
-* **Species Diversity**: Features data from various organisms, with a primary focus on human and mouse models.
-* **Integrated Databases**: Data is compiled and curated from established resources including UniProt, IUPHAR/BPS Guide to Pharmacology, and various research articles.
+### Categorization of Fragile Sites
+* **Common Fragile Sites**: Sensitive to replication stress and frequently rearranged in various cancers.
+* **Rare Fragile Sites**: Archetypal trinucleotide repeats found in a small percentage of the population.
 
 ---
 
 ## Key Features
 
-### Search and Browse Modules
-* **Simple Search**: Query the database using keywords such as hormone name, receptor name, or species.
-* **Advanced Search**: Perform complex queries using logical operators (AND, OR) to filter results by specific parameters.
-* **Browsing**: Users can browse entries based on hormone type (peptide, steroid, etc.), receptor family (GPCR, nuclear receptors), or organism.
+### Comprehensive Annotations
+* **Mapping Data**: Provides precise chromosomal coordinates and cytobands for each fragile site.
+* **Chemical Inducers**: Lists specific agents known to induce fragility at these sites.
+* **Gene Content**: Identifies protein-coding genes located within or overlapping with fragile site regions.
+* **miRNA Association**: Maps human miRNA genes present at fragile sites, facilitating studies on gene regulation and disease progression.
 
-### Informative Annotations
-* **Functional Details**: Provides insights into the physiological roles and signaling pathways triggered by specific interactions.
-* **Structural Information**: Links to PDB (Protein Data Bank) and other structural resources where experimental 3D structures of the complexes are available.
-* **Disease Associations**: Information regarding clinical implications or diseases linked to the malfunction of specific hormone-receptor pairs.
+### Analysis Tools
+* **Search Module**: Allows users to query the database by chromosome, cytoband, or specific inducer.
+* **Browsing**: Users can explore the database by fragile site type (Common or Rare).
 
 ---
 
 ## Technical Overview
 
-HMRBase2 is implemented using a robust web architecture designed for high performance and accessibility.
+HumCFS is built to provide high-quality, manually curated data for the bioinformatics community.
 
-* **Backend**: MySQL is used for secure and efficient data management.
-* **Interface**: The web interface is built using PHP, HTML5, and JavaScript to provide a responsive user experience.
-* **Cross-Linking**: Entries are meticulously cross-referenced with external databases such as UniProt, Entrez Gene, and PubMed.
+* **Data Curation**: Information is extracted from extensive literature reviews and cross-referenced with genomic databases.
+* **Genome Mapping**: Coordinates are updated to align with current human genome assemblies.
+* **Interconnectivity**: Entries include links to external resources for detailed gene and miRNA information.
 
 ---
 
 ## Applications
 
-* **Endocrinology Research**: Facilitating the study of hormone signaling and systemic coordination.
-* **Pharmacology**: Assisting in the identification of potential drug targets by mapping known receptor-ligand interactions.
-* **Systems Biology**: Providing high-quality datasets for modeling large-scale cellular signaling networks.
+* **Cancer Research**: Studying how fragile site rearrangements contribute to tumor development.
+* **Genomic Instability**: Investigating the mechanisms of chromosomal breakage and repair.
+* **Diagnostics**: Developing biomarkers for diseases associated with specific chromosomal breaks.
 
 ---
 
 ## Contact & Authors
 
-**Prof. Gajendra P.S. Raghava**
-Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), India.
+**Prof. Gajendra P. S. Raghava**
+Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), New Delhi, India.
 **Email**: raghava@iiitd.ac.in
 
 ---
 
 ## License
 
+This resource is open-access and distributed under the terms of the **Creative Commons Attribution License**, permitting unrestricted use and distribution provided the original work is properly credited.
 This resource is open-access and distributed under the terms of the **Creative Commons Attribution License**, permitting unrestricted use and distribution provided the original work is properly credited.
